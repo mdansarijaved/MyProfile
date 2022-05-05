@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+hr{
+    border-style: none;
+    border-top: 5px;
+    border-top-style: dotted;
+    color:#8B9A46 ;
+    width: 10%;
+}
+a{
+    color: #ECDBBA;
+}
+img{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 15%;
+}
+.hobbies{
+    text-align: center;
+    list-style-position: inside; 
+    
+}
+ol.center li{
+    text-align: left;
+    margin-left: 45%;
+}
+.middle{
+    text-align: center;
+    list-style-position : inside;
+}
