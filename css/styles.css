@@ -1,33 +1,88 @@
+/*********************************************TAG SELECTOR*****************************************************/
+
 body {
     background-color: #000000;
     color: white;
 }
-hr{
+
+hr {
     border-style: none;
     border-top: 5px;
     border-top-style: dotted;
-    color:#8B9A46 ;
+    color: #8B9A46;
+    size: 3px;
     width: 10%;
 }
-a{
+
+
+a {
     color: #ECDBBA;
 }
-img{
-   display: flex;
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+ul{
+    display: table;
+    margin: 0 auto;
+}
+ol{
+    display: table;
+    margin: 0 auto ; 
+}
+
+
+
+/*****************************************************************CLASS SELECTOR***********************************************************/
+.heading{
+    text-align: center;
+}
+.heading:hover{
+    color: rgb(238, 225, 155);
+    font-size: 3em;
+}
+
+
+
+.hobbies {
+    list-style-position: inside;
+
+    text-align: center;
+
+}
+
+.heading2{
+    text-align: center;
+}
+.heading2:hover{
+    color: blanchedalmond;
+    font-size: 2em;
+}
+.heading3{
+    text-align: center;
+
+}
+.heading3:hover{
+    color: blanchedalmond;
+    font-size: 2em;
+}
+
+
+
+.middle {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.para1{
+    text-align: center;
+}
+
+.table
+{
    margin-left: auto;
    margin-right: auto;
-   width: 15%;
-}
-.hobbies{
-    text-align: center;
-    list-style-position: inside; 
-    
-}
-ol.center li{
-    text-align: left;
-    margin-left: 45%;
-}
-.middle{
-    text-align: center;
-    list-style-position : inside;
 }
