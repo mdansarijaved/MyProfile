@@ -1,88 +1,25 @@
-/*********************************************TAG SELECTOR*****************************************************/
+/***********************************************TAG SELECTORS*********************************************/
 
-body {
-    background-color: #000000;
-    color: white;
-}
-
-hr {
-    border-style: none;
-    border-top: 5px;
-    border-top-style: dotted;
-    color: #8B9A46;
-    size: 3px;
-    width: 10%;
-}
-
-
-a {
-    color: #ECDBBA;
-}
-
-img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-}
-ul{
-    display: table;
-    margin: 0 auto;
-}
-ol{
-    display: table;
-    margin: 0 auto ; 
+div{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 
 
-/*****************************************************************CLASS SELECTOR***********************************************************/
-.heading{
+
+
+
+
+
+
+
+
+/***********************************************CLASS SELECTORS*********************************************/
+.Div{
+    background-color: #E8F9FD;
     text-align: center;
-}
-.heading:hover{
-    color: rgb(238, 225, 155);
-    font-size: 3em;
-}
-
-
-
-.hobbies {
-    list-style-position: inside;
-
-    text-align: center;
-
-}
-
-.heading2{
-    text-align: center;
-}
-.heading2:hover{
-    color: blanchedalmond;
-    font-size: 2em;
-}
-.heading3{
-    text-align: center;
-
-}
-.heading3:hover{
-    color: blanchedalmond;
-    font-size: 2em;
-}
-
-
-
-.middle {
-    text-align: center;
-    list-style-position: inside;
-}
-
-.para1{
-    text-align: center;
-}
-
-.table
-{
-   margin-left: auto;
-   margin-right: auto;
+    
 }
